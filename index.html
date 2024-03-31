@@ -122,7 +122,7 @@
 							<div class="minor_menu_items">
 								<div class="menuitem change_language_action">言語を変更</div>
 								<a class="menuitem" href="" target="_blank" rel="noreferrer">Steamモバイルアプリを入手</a>
-								<div class="menuitem" onclick="Responsive_RequestDesktopView();">デスクトップウェブサイトを表示</div>
+								<div class="menuitem" onclick="">デスクトップウェブサイトを表示</div>
 							</div>
 						</div>
 						<div class="mainmenu_footer_spacer"></div>
@@ -214,49 +214,7 @@
 								<a class="global_action_link" href="https://twitter.com/youjo_bot_dayo">ログイン</a>
 								&nbsp;|&nbsp;
 								<span class="pulldown global_action_link" id="language_pulldown" onclick="">言語</span>
-								<div class="popup_block_new" id="language_dropdown" style="visibility: visible; top: 19px; left: -57.1875px; display: none; opacity: 1">
-									<div class="popup_body popup_menu">
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=schinese" onclick="ChangeLanguage( &#39;schinese&#39; ); return false;">简体中文（簡体字中国語）</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=tchinese" onclick="ChangeLanguage( &#39;tchinese&#39; ); return false;">繁體中文（繁体字中国語）</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=koreana" onclick="ChangeLanguage( &#39;koreana&#39; ); return false;">한국어 (韓国語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=thai" onclick="ChangeLanguage( &#39;thai&#39; ); return false;">ไทย (タイ語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=bulgarian" onclick="ChangeLanguage( &#39;bulgarian&#39; ); return false;">български (ブルガリア語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=czech" onclick="ChangeLanguage( &#39;czech&#39; ); return false;">Čeština（チェコ語）</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=danish" onclick="ChangeLanguage( &#39;danish&#39; ); return false;">Dansk (デンマーク語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=german" onclick="ChangeLanguage( &#39;german&#39; ); return false;">Deutsch (ドイツ語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=english" onclick="ChangeLanguage( &#39;english&#39; ); return false;">English (英語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=spanish" onclick="ChangeLanguage( &#39;spanish&#39; ); return false;"
-											>Español - España (スペイン語 - スペイン)</a
-										>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=latam" onclick="ChangeLanguage( &#39;latam&#39; ); return false;"
-											>Español - Latinoamérica (スペイン語 - ラテンアメリカ)</a
-										>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=greek" onclick="ChangeLanguage( &#39;greek&#39; ); return false;">Ελληνικά (ギリシャ語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=french" onclick="ChangeLanguage( &#39;french&#39; ); return false;">Français (フランス語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=italian" onclick="ChangeLanguage( &#39;italian&#39; ); return false;">Italiano (イタリア語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=indonesian" onclick="ChangeLanguage( &#39;indonesian&#39; ); return false;"
-											>Bahasa Indonesia（インドネシア語）</a
-										>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=hungarian" onclick="ChangeLanguage( &#39;hungarian&#39; ); return false;">Magyar（ハンガリー語）</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=dutch" onclick="ChangeLanguage( &#39;dutch&#39; ); return false;">Nederlands (オランダ語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=norwegian" onclick="ChangeLanguage( &#39;norwegian&#39; ); return false;">Norsk (ノルウェー語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=polish" onclick="ChangeLanguage( &#39;polish&#39; ); return false;">Polski (ポーランド語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=portuguese" onclick="ChangeLanguage( &#39;portuguese&#39; ); return false;"
-											>Português（ポルトガル語－ポルトガル）</a
-										>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=brazilian" onclick="ChangeLanguage( &#39;brazilian&#39; ); return false;"
-											>Português - Brasil (ポルトガル語 - ブラジル)</a
-										>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=romanian" onclick="ChangeLanguage( &#39;romanian&#39; ); return false;">Română（ルーマニア語）</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=russian" onclick="ChangeLanguage( &#39;russian&#39; ); return false;">Русский (ロシア語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=finnish" onclick="ChangeLanguage( &#39;finnish&#39; ); return false;">Suomi (フィンランド語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=swedish" onclick="ChangeLanguage( &#39;swedish&#39; ); return false;">Svenska (スウェーデン語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=turkish" onclick="ChangeLanguage( &#39;turkish&#39; ); return false;">Türkçe (トルコ語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=vietnamese" onclick="ChangeLanguage( &#39;vietnamese&#39; ); return false;">Tiếng Việt (ベトナム語)</a>
-										<a class="popup_menu_item tight" href="https://twitter.com/youjo_bot_dayo?l=ukrainian" onclick="ChangeLanguage( &#39;ukrainian&#39; ); return false;">Українська (ウクライナ語)</a>
-										<a class="popup_menu_item tight" href="https://www.valvesoftware.com/en/contact?contact-person=Translation%20Team%20Feedback" target="_blank">翻訳の問題を報告</a>
-									</div>
-								</div>
+								<div class="popup_block_new" id="language_dropdown" style="visibility: visible; top: 19px; left: -57.1875px; display: none; opacity: 1"></div>
 							</div>
 						</div>
 					</div>
@@ -921,13 +879,7 @@
 															<input type="hidden" name="snr" value="1_5_9__12" />
 															<div class="searchbox">
 																<input id="store_nav_search_term" name="term" type="search" class="default" placeholder="検索" size="22" autocomplete="off" maxlength="64" />
-																<a
-																	href="https://twitter.com/youjo_bot_dayo#"
-																	id="store_search_link"
-																	onclick="var $Form = $J(this).parents(&#39;form&#39;); $Form.submit(); return false;"
-																	aria-label="Steamで検索"
-																	><img src="./files/blank.gif" alt=""
-																/></a>
+																<a href="https://twitter.com/youjo_bot_dayo#" id="store_search_link" onclick="" aria-label="Steamで検索"><img src="./files/blank.gif" alt="" /></a>
 															</div>
 														</form>
 													</div>
@@ -1640,12 +1592,7 @@
 										<div class="block responsive_apppage_details_right">
 											<div class="block_title" id="LanguagesHeader">言語<span class="responsive_hidden">:</span></div>
 
-											<div
-												id="bannerLanguages"
-												data-panel='{"focusable":true,"clickOnActivate":true}'
-												class="responsive_banner_link"
-												style="display: none"
-												onclick="ToggleBannerContentVisibility(&#39;#languageTable&#39;, &#39;#expandLanguageBtn&#39;)">
+											<div id="bannerLanguages" data-panel='{"focusable":true,"clickOnActivate":true}' class="responsive_banner_link" style="display: none" onclick="">
 												<div class="responsive_banner_link_title">日本語、他3言語</div>
 												<div id="expandLanguageBtn" class="expand_section"></div>
 											</div>
@@ -1774,12 +1721,12 @@
 										</div>
 
 										<div id="shareBtn" style="display: none; flex-grow: 0">
-											<a class="btnv6_blue_hoverfade btn_medium" onclick="ShowShareDialog(); return false;"
+											<a class="btnv6_blue_hoverfade btn_medium" onclick=""
 												><span><img id="shareImg" src="./files/icon_share_android.svg" /></span
 											></a>
 										</div>
 										<div id="reportBtn" style="display: none; flex-grow: 0">
-											<a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(2246110)"
+											<a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick=""
 												><span><img src="./files/icon_report.svg" /></span
 											></a>
 										</div>
@@ -2034,7 +1981,7 @@
 									<div id="reviewSettingsPopupContent" class="review_settings_popup_content">
 										<div class="review_settings_popup_header">
 											<div>レビューフィルター</div>
-											<div onclick="CloseReviewSettingsModal();"><img src="./files/close_btn.png" /></div>
+											<div onclick=""><img src="./files/close_btn.png" /></div>
 										</div>
 									</div>
 								</div>
@@ -2071,7 +2018,7 @@
 							</div>
 
 							<div class="buttoncontainer">
-								<a class="btnv6_blue_hoverfade btn_medium" href="https://twitter.com/youjo_bot_dayo#" onclick="CreateWidget(2246110); return false;"><span>ウィジェットの作成</span></a>
+								<a class="btnv6_blue_hoverfade btn_medium" href="https://twitter.com/youjo_bot_dayo#" onclick=""><span>ウィジェットの作成</span></a>
 							</div>
 						</div>
 						<div id="widget_finished" style="display: none">
@@ -2089,7 +2036,7 @@
 							><a href="" target="_blank" rel="" title="Redditに投稿する"><img src="./files/reddit_large.png" /></a>
 							<div class="share_dialog_content">
 								<label for="linkShareValue" hidden="">ゲームストアページへのリンク</label
-								><textarea id="shareDialogLinkStoreLink" class="share_dialog_value" onclick="ShareDialogCopyToClipboard();" readonly="">https://twitter.com/youjo_bot_dayo</textarea>
+								><textarea id="shareDialogLinkStoreLink" class="share_dialog_value" onclick="" readonly="">https://twitter.com/youjo_bot_dayo</textarea>
 							</div>
 							<div id="shareDialogResult" class="share_dialog_result"></div>
 						</div>
